@@ -6,3 +6,7 @@ regras nomeais da branch
 
 listar branches = git branch 
 entrar em uma branch = git checkout nome-branch
+
+mesclar branches
+git checkout master ou main
+git merge nome-branch
