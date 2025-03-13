@@ -10,3 +10,7 @@ entrar em uma branch = git checkout nome-branch
 mesclar branches
 git checkout master ou main
 git merge nome-branch
+dar push em uma branch
+git push origin nome-branch
+
+criar branch e ja entrar na mesma = git checkout -b nome-da-branch
