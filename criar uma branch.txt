@@ -1,0 +1,8 @@
+criar uama branch = git branch nome-da-branch
+regras nomeais da branch
+-sem acentuação
+-sem espaços
+-nome objeetivos
+
+listar branches = git branch 
+entrar em uma branch = git checkout nome-branch
