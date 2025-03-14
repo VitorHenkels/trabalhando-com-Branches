@@ -14,3 +14,15 @@ dar push em uma branch
 git push origin nome-branch
 
 criar branch e ja entrar na mesma = git checkout -b nome-da-branch
+
+RESOLVENDO CONFLITOS 
+ao alterar um mesmo aqrquivo no mesmo trecho(linhas) de código, por commits diferentes ou branchs diferentes, um conflito é detectado.
+Isso ocorre porque o git controla para voce todas as alterações de código que foram realizadas e mostra o conflito para que voce decida o que fazer
+
+no Vscode aparecem algumas opçoes 
+Accept Current change = aceita a versão do código que ja estava presente no branch atual descartando a versão do outro branch
+
+Accept Incoming change = aceita a versão do código que está vindo do outro branch, descartando a versão do branch atual
+
+compare changes = abre uma comparação lado a lado para que voce possa analisar as diferenças antes de decidir qual alteração aceitar
+
